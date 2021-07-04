@@ -32,8 +32,7 @@ if (isset($_POST['Insignsearch'])) {
 
   </script>
 	<title>Issue Outpass</title>
-	<link rel="stylesheet" type="text/css" href="css/print_table_for_issue.css">
-<link rel="stylesheet" type="text/css" href="css/print_page.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 
 </head>
@@ -54,7 +53,7 @@ if (isset($_POST['Insignsearch'])) {
   		if (isset($_POST['Insignsearch'])) {
   			if (count($errors) == 0) {	
   	?>
-	<table id="tab5">
+	<table class="table table-responsive table-danger">
 		
     <tr>
       <th>NAME</th>

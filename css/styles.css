@@ -135,3 +135,16 @@ Pagination #totallist_table_paginate {
 #issue_page{
     text-align: center;
 }
+/* 
+Insign page */
+
+.search-container{
+    margin-top: 10vh;
+    float: right;
+}
+
+.error{
+    padding: 20vh;
+    text-align: center;
+    border-radius: 10px;
+}
